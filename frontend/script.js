@@ -15,7 +15,8 @@ const karmaFill = document.getElementById('karma-fill');
 const cringeScore = document.getElementById('cringe-score');
 
 // Configuration
-const API_ENDPOINT = 'https://your-render-service.onrender.com/analyze'; // Update after deployment
+const API_ENDPOINT = 'http://localhost:5000/analyze';
+ // Update after deployment
 const ROAST_INTERVAL = 5000; // 5 seconds
 
 // State variables
